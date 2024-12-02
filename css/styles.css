@@ -368,12 +368,12 @@ button {
 }
 .ba-aa {
   width: 288px;
-  height: 696px;
+  height: auto;
   text-align: center;
   padding-top: 95px;
 }
-/* .ba-ab {
-} */
+.ba-ab {
+}
 .ba-ac {
   height: 120px;
   margin-bottom: 72px;
@@ -391,14 +391,78 @@ button {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
   text-align: start;
   margin-left: 8px;
 }
 .ca-aa {
   width: 320px;
   height: 2232px;
-  padding-top: 97px;
+  margin-top: 97px;
 }
-.cs-ab {
+.ca-ab {
+  background-color: #f4f4fd;
+}
+.ca-ac {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  padding-top: 96px;
+}
+.ca-ad {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.ca-ae {
+}
+.ca-af {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 428px;
+}
+.ca-ag {
+  padding-top: 32px;
+  padding-left: 65px;
+  margin-bottom: 8px;
+}
+.ca-ah {
+  display: flex;
+  padding-left: 68px;
+  padding-bottom: 8px;
+}
+.ca-ai {
+  width: 233px;
+  height: 40px;
+  gap: 24px;
+  margin-left: 16px;
+  display: flex;
+}
+.ca-aj {
+  width: 40px;
+  height: 40px;
+}
+.ca-ak {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 8px;
+}
+.ca-ak-svg {
+  fill: #f4f4fd;
+}
+.ca-ak:hover {
+  background-color: #404bbf;
+}
+.ca-ak:focus {
+  background-color: #404bbf;
 }
