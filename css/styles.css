@@ -370,15 +370,15 @@ button {
   width: 288px;
   height: 696px;
   text-align: center;
-}
-
-.ba-ab {
   padding-top: 95px;
-  width: 288px;
+}
+/* .ba-ab {
+} */
+.ba-ac {
   height: 120px;
   margin-bottom: 72px;
 }
-.ba-ac {
+.ba-ad {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -386,7 +386,7 @@ button {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.ba-ad {
+.ba-ae {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -394,4 +394,11 @@ button {
   color: #434455;
   text-align: start;
   margin-left: 8px;
+}
+.ca-aa {
+  width: 320px;
+  height: 2232px;
+  padding-top: 97px;
+}
+.cs-ab {
 }
