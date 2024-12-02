@@ -334,6 +334,7 @@ button {
   }
 }
 
+/* ONE */
 .aa-aa {
   width: 320px;
   height: 432px;
@@ -364,4 +365,33 @@ button {
   border-radius: 4px;
   margin-top: 72px;
   text-align: center;
+}
+.ba-aa {
+  width: 288px;
+  height: 696px;
+  text-align: center;
+}
+
+.ba-ab {
+  padding-top: 95px;
+  width: 288px;
+  height: 120px;
+  margin-bottom: 72px;
+}
+.ba-ac {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.ba-ad {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: start;
+  margin-left: 8px;
 }
