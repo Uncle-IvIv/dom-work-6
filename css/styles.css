@@ -333,3 +333,35 @@ button {
     background-size: 100%;
   }
 }
+
+.aa-aa {
+  width: 320px;
+  height: 432px;
+  background-color: rgba(46, 47, 66, 0.7);
+}
+.aa-ab {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  padding-top: 72px;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+.aa-ac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aa-ad {
+  width: 169px;
+  height: 56px;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  margin-top: 72px;
+  text-align: center;
+}
