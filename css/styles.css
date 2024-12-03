@@ -1,5 +1,5 @@
 .hidden {
-  display: none;
+  /* display: none; */
 }
 
 body {
@@ -395,12 +395,12 @@ button {
   margin-left: 8px;
 }
 .ca-aa {
-  width: 320px;
-  height: 2232px;
-  margin-top: 97px;
 }
 .ca-ab {
   background-color: #f4f4fd;
+  width: 320px;
+  height: 2232px;
+  margin-top: 98px;
 }
 .ca-ac {
   font-weight: 700;
@@ -419,12 +419,16 @@ button {
 }
 .ca-ae {
   margin: 0 auto;
+  margin-bottom: 72px;
+  width: 264px;
+  height: 428px;
+  background: #fff;
 }
 .ca-af {
   display: flex;
   flex-direction: column;
-  width: 264px;
-  height: 428px;
+  width: 232px;
+  height: 104px;
 }
 .ca-ag {
   font-weight: 500;
@@ -434,6 +438,7 @@ button {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
+  margin-top: 32px;
 }
 .ca-ah {
   line-height: 1.5;
@@ -471,4 +476,49 @@ button {
 }
 .ca-ak:focus {
   background-color: #404bbf;
+}
+.da-aa {
+  margin-top: 95px;
+  height: 2752px;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.da-ab {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-bottom: 72px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+  white-space: nowrap;
+}
+.da-ae {
+  width: 288px;
+  height: 400px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+.da-af {
+  padding-left: 16px;
+}
+.da-ag {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+.da-ah {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
