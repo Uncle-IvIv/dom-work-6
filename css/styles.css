@@ -514,18 +514,18 @@ color: #2e2f42;
 .da-ad {
   height: 400px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
+ margin-bottom: 48px;
 }
 .da-ae {
   width: 288px;
   height: 400px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-background-color: #7274a0;
-
+background-color: #fff;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .da-af {
-  background-color: #404bbf;
+margin-left: 16px;
 }
 .da-ag {
   font-weight: 500;
