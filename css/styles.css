@@ -339,7 +339,7 @@ button {
 .aa-aa {
   width: 320px;
   height: 432px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-360.jpg);
 }
 .aa-ab {
   font-weight: 700;
@@ -494,17 +494,19 @@ padding-left: 16px;
 
 }
 .da-ab {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
   padding-bottom: 72px;
   display: flex;
   flex-direction: row;
   margin-left: 35px;
   white-space: nowrap;
-  margin-top: 76px;
+  margin-top: 96px;
 }
 .da-ac {
   width: 288px;
