@@ -413,7 +413,7 @@ margin-bottom: 8px;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
+  justify-content: center; 
   color: #2e2f42;
    display: flex;
   flex-direction: row;
@@ -488,7 +488,9 @@ margin-bottom: 8px;
   background-color: #404bbf;
 }
 .da-aa {
-
+width: 288px;
+height: 2752px;
+padding-left: 16px;
 }
 .da-ab {
   font-weight: 700;
@@ -505,9 +507,8 @@ margin-bottom: 8px;
 }
 .da-ad {
   height: 400px;
-  background-color: #7b2129;
-  /*box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-background: #fff; */
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .da-ae {
   width: 288px;
