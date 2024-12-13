@@ -92,7 +92,7 @@ button {
 .adress-styl {
   display: none;
 }
-
+.nav-item {}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -542,4 +542,91 @@ margin-left: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.footer-end {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.span-footer {
+  color: #f4f4fd;
+}
+.p-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  width: 288px;
+  height: 72px;
+  margin-bottom: 72px;
+}
+.footer-logo {
+  margin-bottom: 18px;
+  display: flex;
+  margin-left: 90px;
+}
+.p-soc-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  width: 96px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+}
+.footer-subscribe-p {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subscribe-form-l {
+  width: 288px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.footer-subscribe-form-button {
+  width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  margin-left: 60px;
+  margin-top: 16px;
+}
+.footer-subscribe-form-button-svg {
+  margin-left: 16px;
 }
