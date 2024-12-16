@@ -260,6 +260,11 @@ color: #434455;
   visibility: visible;
   pointer-events: auto;
 }
+@media only screen and (min-width: 768px) {
+  .mobile-op-menu {
+    display: none;
+  }
+}
 .mobile-op-menu-container {
   position: relative;
   display: flex;
@@ -282,12 +287,6 @@ flex-direction: column;*/
 gap: 40px;
   margin-bottom: 168px;
   }
-@media only screen and (min-width: 768px) {
-  .mobile-op-menu {
-    display: none;
-  }
-}
-
 @media only screen and (min-width: 1158px) {
   .header-logo {
     margin-right: 76px;
