@@ -689,10 +689,10 @@ flex-direction: column;*/
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+}/*
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%) scale(1.5);
-}
+}*/
 .modal {
   position: absolute;
   top: 8px;
