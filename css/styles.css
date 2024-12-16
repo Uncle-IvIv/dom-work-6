@@ -113,10 +113,13 @@ button {
   background-color: transparent;
 }
 
-.mobile-op-menu-close {
+.mobile-aa-ab {
   padding: 0;
   border: none;
   background-color: transparent;
+  position: absolute;
+  top: 24px;
+  right: 24px;
 }
 .mob-m-o-n-studio {
   margin-top: 72px;
@@ -169,9 +172,8 @@ letter-spacing: 0.02em;
 color: #434455;
     font-style: normal;
 }
-
 @media only screen and (min-width: 768px) {
-  .mobile-op-menu {
+  .mobile-aa {
     display: none;
   }
   .ul-box {
@@ -242,7 +244,7 @@ color: #434455;
     color: #404bbf;
   }
 }
-.mobile-op-menu {
+.mobile-aa {
   position: fixed;
   top: 0;
   left: 0;
@@ -255,27 +257,22 @@ color: #434455;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mobile-op-menu.is-open {
+.mobile-aa.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 @media only screen and (min-width: 768px) {
-  .mobile-op-menu {
+  .mobile-aa {
     display: none;
   }
 }
-.mobile-op-menu-container {
+.mobile-aa-aa {
   position: relative;
   display: flex;
   flex-direction: column;
   max-width: 320px;
   height: 640px;
-}
-.mobile-op-menu-close {
-  position: absolute;
-  top: 24px;
-  right: 24px;
 }
 .mobile-menu-op-nav {
   width: 151px;
