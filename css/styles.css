@@ -765,7 +765,6 @@ flex-direction: column;*/
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
-
 }
 .modal-fa-ae {
   position: relative;
@@ -804,6 +803,7 @@ flex-direction: column;*/
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  margin-top: 8px;
 }
 .modal-fa-ai {
   position: relative;
