@@ -501,7 +501,6 @@ margin-bottom: 84px;
 
 }
 .da-ab {
-  font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
@@ -553,7 +552,7 @@ margin-left: 16px;
 .ea-aa {
   height: 664px;
   background: #2e2f42;
-
+margin-left: 0;
  }
  .ea-ab {
   width: 288px;
