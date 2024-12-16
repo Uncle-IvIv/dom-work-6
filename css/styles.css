@@ -121,8 +121,11 @@ button {
   top: 24px;
   right: 24px;
 }
+.mobile-ba-aa {
+  margin-bottom: auto;
+
+}
 .mob-m-o-n-studio {
-  margin-top: 72px;
   margin-bottom: 40px;
   font-weight: 700;
 font-size: 36px;
@@ -166,18 +169,18 @@ font-style: normal;
 }
 .mob-adress-email {
  font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #434455;
-    font-style: normal;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ color: #434455;
+ font-style: normal;
 }
 .mobile-aa {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 640px;
+  height: 100%;
   background-color: #fff;
   opacity: 0;
   visibility: hidden;
@@ -197,10 +200,11 @@ color: #434455;
 }
 .mobile-aa-aa {
   position: relative;
+  padding-top: 72px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  max-width: 320px;
-  height: 640px;
+  height: 100%;
 }
 @media only screen and (min-width: 768px) {
   .mobile-aa {
