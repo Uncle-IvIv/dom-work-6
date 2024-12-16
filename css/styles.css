@@ -128,32 +128,30 @@ button {
 .mob-m-o-n-studio {
   margin-bottom: 40px;
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11111;
-letter-spacing: 0.02em;
-color: #404bbf;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 .mob-m-o-n-portfolio {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11111;
-letter-spacing: 0.02em;
-color: #2e2f42;
-  margin-left: 0;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   margin-bottom: 40px;
 }
 .mob-m-o-n-contacts {
- font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
 letter-spacing: 0.02em;
 color: #2e2f42;
 
    }
-.mobile-menu-op-add-con {
+.mobile-ca-aa {
   width: 193px;
   height: 72px;
-  margin-left: 16px;
   margin-bottom: 48px;
 }
 .mob-adress-tel {
@@ -459,10 +457,9 @@ margin-bottom: 8px;
 .ca-ai {
   width: 280px;
   height: 40px;
-  gap: 24px;
-
+  gap: 40px;
   display: flex;
-  justify-content: center; 
+  justify-content: flex-start; 
 }
 .ca-aj {
   width: 40px;
