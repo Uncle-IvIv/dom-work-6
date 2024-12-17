@@ -501,6 +501,12 @@ justify-content: space-between;
   height: 2232px;
   margin-top: 98px;
 }
+@media only screen and (min-width: 768px) {
+  .ca-ab {
+    width: 768px;
+    height: 1224px;
+  }
+}
 .ca-ac {
   font-weight: 700;
   font-size: 36px;
@@ -520,12 +526,26 @@ justify-content: space-between;
   justify-content: center;
   flex-direction: column;
 }
+@media only screen and (min-width: 768px) {
+  .ca-ad {
+      display: flex;
+        flex-flow: row wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 108px 0 108px;
+  }
+}
 .ca-ae {
   margin: 0 auto;
   margin-bottom: 72px;
   width: 264px;
   height: 428px;
   background: #fff;
+}
+@media only screen and (min-width: 768px) {
+  .ca-ae {
+    margin-bottom: 64px;
+  }
 }
 .ca-af {
   display: flex;
@@ -594,6 +614,13 @@ justify-content: space-between;
   padding-left: 16px;
   margin-bottom: 84px;
 }
+@media only screen and (min-width: 768px) {
+  .da-aa {
+    width: 736px;
+    height: 1516px;
+    
+  }
+}
 .da-ab {
   font-weight: 700;
   font-size: 36px;
@@ -611,6 +638,16 @@ justify-content: space-between;
 .da-ac {
   width: 288px;
 }
+@media only screen and (min-width: 768px) {
+  .da-ac {
+    display: flex;
+flex-direction: row;
+margin-left: 35px;
+white-space: nowrap;
+padding-top: 96px;
+  }
+}
+
 .da-ad {
   height: 400px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
