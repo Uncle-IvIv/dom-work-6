@@ -740,7 +740,7 @@ flex-direction: column;*/
 
 .ea-aa {
   background: #2e2f42;
-  margin-left: 0;
+
 }
 @media only screen and (min-width: 768px) {
   .ea-aa {
@@ -752,11 +752,6 @@ flex-direction: column;*/
   padding-top: 108px;
   padding-left: 1px;
   padding-bottom: 72px;
-}
-@media only screen and (min-width: 768px) {
-  .ea-ab {
-    padding: 96px 0 72px 92px;
-    }
 }
 
 .ea-ac {
@@ -785,6 +780,7 @@ flex-direction: column;*/
   color: #f4f4fd;
 }
 .ea-ae {
+  padding-left: 16px;
   width: 288px;
   height: 72px;
   margin: 0 auto;
@@ -795,25 +791,41 @@ flex-direction: column;*/
   color: #f4f4fd;
 }
 @media only screen and (min-width: 768px) {
-  .eaa-aa {
-display: flex;
-
+  .ea-ae {
+  padding-left: 0;
   }
 }
+.eee {
+  width: 208px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-bottom: 72px;
+}
+@media only screen and (min-width: 768px) {
+  .eaa {
+   
+  }
+}
+ 
 .ea-ag {
-  font-weight: 500;
+font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
-  text-align: center;
+  width: 96px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (min-width: 768px) {
   .ea-ag {
-  margin-top: 96px;
-  text-align: left;
-  }
+margin-left: 0;
+margin-top: 96px;
+}
 }
 .ea-ah {
   width: 233px;
@@ -826,13 +838,13 @@ display: flex;
 }
 @media only screen and (min-width: 768px) {
 .ea-ah {
-
-gap: 16px;
+  display: flex;
+  gap: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
 .ea-ai {
-padding: 0 24px 72px 108px;
+margin-left: 108px;
 }  
 }
 .ea-aj {
@@ -885,6 +897,7 @@ padding: 0 24px 72px 108px;
 @media only screen and (min-width: 768px) {
 .ea-af {
 margin-top: 8px;
+margin-left: 24px;
 }
 } 
 .ea-am {
