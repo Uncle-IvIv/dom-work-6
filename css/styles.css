@@ -512,7 +512,7 @@ flex-direction: column;*/
 }
 .ca-ad {
   margin-top: 72px;
-  display: flex;
+
   justify-content: center;
   flex-direction: column;
 }
@@ -534,7 +534,8 @@ flex-direction: column;*/
 }
 @media only screen and (min-width: 768px) {
   .ca-ae {
-    margin-bottom: 64px;
+    margin: 0 12px 64px;
+
   }
 }
 .ca-af {
