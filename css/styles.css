@@ -809,6 +809,8 @@ flex-direction: column;*/
 }
 @media only screen and (min-width: 768px) {
   .eaa {
+    position: relative;
+    left: -100px;
   }
 }
 
@@ -843,6 +845,8 @@ flex-direction: column;*/
   .ea-ah {
     display: flex;
     gap: 16px;
+    position: relative;
+    left: -12px;
   }
 }
 @media only screen and (min-width: 768px) {
