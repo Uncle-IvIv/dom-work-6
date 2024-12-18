@@ -63,12 +63,15 @@ button {
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+      padding: 0 16px;
+      margin: 0 auto;
   }
 }
 @media only screen and (min-width: 1158px) {
   .container {
     max-width: 1168px;
     padding: 0 15px;
+    margin: 0 auto;
   }
 }
 
@@ -352,13 +355,12 @@ flex-direction: column;*/
 }
 
 .aa-aa {
-
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/Dark-bg-360.jpg);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) {
   .aa-aa {
@@ -408,7 +410,6 @@ flex-direction: column;*/
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 @media only screen and (min-width: 768px) {
   .aa-ac {
@@ -438,27 +439,17 @@ flex-direction: column;*/
   }
 }
 .ba-aa {
-
-  
   padding-top: 95px;
-}
-.baa-aa {
- 
 }
 @media only screen and (min-width: 768px) {
   .baa-aa {
-
-    margin: 0 16px 0 16px ;
-  display: flex;
-flex-flow: row wrap;
-flex-direction: row;
-justify-content: space-between;
-      }
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .ba-ac {
-text-align: center;
+  text-align: center;
   margin-bottom: 72px;
-
 }
 @media only screen and (min-width: 768px) {
   .ba-ac {
@@ -500,12 +491,10 @@ text-align: center;
 .ca-ab {
   background-color: #f4f4fd;
   margin-top: 98px;
-
 }
 @media only screen and (min-width: 768px) {
   .ca-ab {
-    width: 768px;
-    height: 1224px;
+    margin-top: 0;
   }
 }
 .ca-ac {
@@ -522,30 +511,26 @@ text-align: center;
   padding-top: 96px;
 }
 .ca-ad {
-
-
   margin-top: 72px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
 }
 @media only screen and (min-width: 768px) {
   .ca-ad {
-      display: flex;
-        flex-flow: row wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0px 108px 0 108px;
+  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+
   }
 }
 .ca-ae {
   background: #fff;
   margin: 0 auto 72px;
   border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
-width: 264px;
-height: 428px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 428px;
 }
 @media only screen and (min-width: 768px) {
   .ca-ae {
@@ -557,9 +542,8 @@ height: 428px;
   flex-direction: column;
   width: 264px;
   height: 104px;
-   background: #fff;
-   margin-bottom: 60px;
-   
+  background: #fff;
+  margin-bottom: 60px;
 }
 .ca-ag {
   font-weight: 500;
@@ -575,10 +559,8 @@ height: 428px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-
 }
 .ca-aq {
- 
   height: 40px;
   gap: 24px;
   display: flex;
@@ -617,14 +599,11 @@ height: 428px;
   background-color: #404bbf;
 }
 .da-aa {
-
   padding-left: 16px;
   margin-bottom: 84px;
 }
 @media only screen and (min-width: 768px) {
   .da-aa {
-    width: 736px;
-    height: 1516px;
 
   }
 }
@@ -650,14 +629,12 @@ height: 428px;
 @media only screen and (min-width: 768px) {
   .da-ac {
     width: 736px;
-display: flex;
-flex-flow: row wrap;
-
-}
+    display: flex;
+    flex-flow: row wrap;
+  }
 }
 
 .da-ad {
-
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   margin-bottom: 48px;
@@ -669,7 +646,6 @@ flex-flow: row wrap;
   }
 }
 .da-ae {
-
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
@@ -702,12 +678,10 @@ flex-flow: row wrap;
   color: #434455;
 }
 .ea-aa {
-
   background: #2e2f42;
   margin-left: 0;
 }
 .ea-ab {
-
   padding-top: 108px;
   padding-left: 1px;
   padding-bottom: 72px;
@@ -753,8 +727,7 @@ flex-flow: row wrap;
   color: #fff;
 
   margin-bottom: 16px;
-  text-align: center
-
+  text-align: center;
 }
 .ea-ah {
   width: 233px;
@@ -768,7 +741,6 @@ flex-flow: row wrap;
 .ea-ai {
   width: 288px;
   height: 136px;
-  
 }
 .ea-aj {
   width: 75px;
@@ -787,9 +759,7 @@ flex-flow: row wrap;
   gap: 24px;
 }
 .ea-al {
-margin: auto;
-
-
+  margin: auto;
 }
 .ea-ao {
   width: 288px;
@@ -804,7 +774,6 @@ margin: auto;
   border-radius: 4px;
   color: #ffffff;
   margin-top: 16px;
-
 }
 .ea-af {
   padding-top: 32px;
