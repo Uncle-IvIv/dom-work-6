@@ -654,8 +654,7 @@ flex-direction: column;*/
 }
 @media only screen and (min-width: 768px) {
   .da-ae {
-    width: 356px;
-    height: 300px;
+ 
   }
 }
 .da-af {
@@ -693,10 +692,9 @@ flex-direction: column;*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  width: 44px;
-  height: 21px;
+
   display: flex;
-  margin-left: 87px;
+justify-content: center;
   margin-bottom: 16px;
 }
 .ea-ad {
@@ -706,8 +704,7 @@ flex-direction: column;*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  width: 71px;
-  height: 21px;
+ 
 }
 .ea-ae {
   width: 288px;
