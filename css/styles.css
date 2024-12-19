@@ -57,9 +57,10 @@ button {
 
 .container {
   max-width: 320px;
-  padding: 0 0;
-  margin-left: auto;
-  margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -78,12 +79,16 @@ button {
 }
 
 .header-box {
-  max-width: 320px;
+  
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
+@media only screen and (min-width: 1158px) {
+ .header-box {
+  max-width: 1158px;
+ }
+}
 .header-container {
   color: #2e2f42;
   display: flex;
@@ -97,12 +102,6 @@ button {
     height: 100%;
   }
 }
-
-.ul-box,
-.adress-styl {
-  display: none;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -239,7 +238,16 @@ button {
     align-items: center;
     gap: 40px;
   }
-
+.ul-box,
+.adress-styl {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .ul-box,
+    .adress-styl {
+      display: inline-flex;
+    }
+}
   .header-logo {
     padding: 24px 0;
     margin-right: 120px;
