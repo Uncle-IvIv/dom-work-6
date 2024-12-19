@@ -234,12 +234,6 @@ button {
   flex-direction: column;
   height: 100%;
 }
-
-@media only screen and (min-width: 768px) {
-  .mobile-aa {
-    display: none;
-  }
-
   .ul-box {
     display: flex;
     align-items: center;
@@ -278,17 +272,17 @@ button {
     margin-bottom: -24px;
   }
 
-  .adress-styl {
+@media only screen and (min-width: 768px) {
+.adress-styl {
     font-style: normal;
     display: block;
   }
-
   .nav-box {
     display: flex;
     align-items: center;
   }
-
-  .nav-punkt-st:hover {
+}
+   .nav-punkt-st:hover {
     color: #404bbf;
   }
 
@@ -318,9 +312,8 @@ button {
   .adress-email:focus {
     color: #404bbf;
   }
-}
 
-@media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
   .adress-email {
     margin-left: 121px;
   }
@@ -741,7 +734,7 @@ flex-direction: column;*/
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-}
+} 
 @media only screen and (min-width: 768px) {
   .eaa-a {
   max-width: 736px;
@@ -796,18 +789,7 @@ background: #2e2f42;
   color: #f4f4fd;
 }
 
- @media only screen and (min-width: 768px) {
-  .ea-ba {
-    width: 208px;
-    height: 80px;
-    margin-left: 24px;
-    margin-top: 96px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-}
-.ea-ag {
+ .ea-ag {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -828,6 +810,10 @@ background: #2e2f42;
   margin-bottom: 72px;
 }
 @media only screen and (min-width: 768px) {
+  .eaa-aj {
+    display: flex;
+    flex-wrap: nowrap;
+  }
   .ea-ak {
   margin-right: 24px;
   }
@@ -843,6 +829,11 @@ background: #2e2f42;
   margin: auto;
   display: flex;
   justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .ea-aj {
+    margin-left: 0;
+  }
 }
 .ea-ak {
   display: flex;
@@ -886,6 +877,8 @@ background: #2e2f42;
   background: #4d5ae5;
   border: none;
   border-radius: 4px;
+margin-top: 16px;
+margin-left: 78px;
 }
 
 .ea-an {
