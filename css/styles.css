@@ -57,8 +57,7 @@ button {
 
 .container {
   max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,6 +65,7 @@ button {
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    
   }
 }
 
@@ -551,6 +551,7 @@ flex-direction: column;*/
 @media only screen and (min-width: 768px) {
   .ca-ab {
     margin-top: 0;
+    max-width: 736px;
   }
 }
 
@@ -696,7 +697,6 @@ flex-direction: column;*/
 
 @media only screen and (min-width: 768px) {
   .da-ac {
-    width: 736px;
     display: flex;
     flex-flow: row wrap;
   }
@@ -742,15 +742,29 @@ flex-direction: column;*/
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.ea-aa {
-  background: #2e2f42;
-}
 @media only screen and (min-width: 768px) {
-  .ea-aa {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  .eaa-a {
+  max-width: 736px;
+  height: 456px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 92px 0 92px;
+ }
+.ea-ab {
+display: flex;
+flex-direction: column;
+}
+.ea-ac {
+align-self: flex-start;
+margin-left: 14px;
+}
+.ea-ae {
+width: 264px;
+
+}
+}
+.ea-aa {
+background: #2e2f42;
 }
 .ea-ab {
   padding-top: 108px;
@@ -769,68 +783,44 @@ flex-direction: column;*/
   justify-content: center;
   margin-bottom: 16px;
 }
-@media only screen and (min-width: 768px) {
-  .ea-ac {
-    display: flex;
-    justify-content: flex-start;
-  }
-}
 .ea-ad {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 .ea-ae {
-  padding-left: 16px;
-  width: 288px;
+  margin-left: 16px;
   height: 72px;
-  margin: 0 auto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-@media only screen and (min-width: 768px) {
-  .ea-ae {
-    padding-left: 0;
-  }
-}
-.eee {
-  width: 208px;
-  height: 80px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 45px;
-  margin-bottom: 72px;
-}
-@media only screen and (min-width: 768px) {
-  .eaa {
-    position: relative;
-    left: -100px;
-  }
-}
 
+ @media only screen and (min-width: 768px) {
+  .ea-ba {
+    width: 208px;
+    height: 80px;
+    margin-left: 24px;
+    margin-top: 96px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+.ea-ag {
+
+
+}
+}
 .ea-ag {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
+  margin: 0 auto 16px auto;
   width: 96px;
   height: 24px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media only screen and (min-width: 768px) {
-  .ea-ag {
-    margin-left: 0;
-    margin-top: 96px;
-  }
+
 }
 .ea-ah {
   width: 233px;
@@ -840,19 +830,6 @@ flex-direction: column;*/
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-}
-@media only screen and (min-width: 768px) {
-  .ea-ah {
-    display: flex;
-    gap: 16px;
-    position: relative;
-    left: -12px;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .ea-ai {
-    margin-left: 108px;
-  }
 }
 .ea-aj {
   width: 75px;
@@ -865,12 +842,6 @@ flex-direction: column;*/
   margin: auto;
   display: flex;
   justify-content: center;
-}
-@media only screen and (min-width: 768px) {
-  .ea-aj {
-    margin: 0;
-    text-align: left;
-  }
 }
 .ea-ak {
   display: flex;
@@ -900,12 +871,6 @@ flex-direction: column;*/
   padding-top: 32px;
   padding-bottom: 84px;
   text-align: center;
-}
-@media only screen and (min-width: 768px) {
-  .ea-af {
-    margin-top: 8px;
-    margin-left: 24px;
-  }
 }
 .ea-am {
   width: 165px;
