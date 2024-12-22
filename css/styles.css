@@ -953,16 +953,15 @@ margin-left: 0;
   visibility: visible;
   pointer-events: auto;
 }
-
-/*
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%) scale(1.5);
-}*/
+}
 .modal {
   position: absolute;
   top: 8px;
   left: 16px;
-  min-height: 623px;
+  right: 16px;
+  min-height: 100%;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -1011,16 +1010,11 @@ margin-left: 0;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
-  width: 256px;
-  height: 48px;
-  margin-top: 72px;
+
 }
 
 .modal-fa-ac {
-  width: 256px;
   height: 336px;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .modal-fa-ad {
