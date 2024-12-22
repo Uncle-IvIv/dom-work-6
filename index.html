@@ -502,60 +502,78 @@
         </button>
         <p class="modal-fa-ab">Leave your contacts and we will call you back</p>
         <form>
-          <div class="modal-fa-ac">
-            <p class="modal-fa-ad">Name</p>
-            <div class="modal-fa-ae">
-              <svg class="modal-fa-af" width="12" height="12">
+          <div class="modal-fa-ag">
+            <label class="modal-fa-ad">Name</label>
+            <div class="modal-fa-ai">
+              <input
+                type="text"
+                class="modal-fa-ac"
+                id="name"
+                name="name"
+                required
+                minlength="4"
+                maxlength="8"
+                size="16"
+              />
+              <svg class="modal-fa-ak" width="18" height="18">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
-
-            <div class="modal-fa-ag">
-              <p class="modal-fa-ah">Phone</p>
-              <div class="modal-fa-ai">
-                <svg class="modal-fa-ak" width="18" height="24">
-                  <use href="./images/icons.svg#icon-phone-black-1"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="modal-fa-ag">
-              <p class="modal-fa-ad">Email</p>
-              <div class="modal-fa-ae">
-                <svg class="modal-fa-af" width="18" height="24">
-                  <use href="./images/icons.svg#icon-email-black"></use>
-                </svg>
-              </div>
-            </div>
-            <div>
-              <label class="modal-fa-ad" for="user-comment">Comment </label>
-              <textarea
-                class="modal-fa-am"
-                id="user-comment"
-                name="user-comment"
-                placeholder="Text input"
-              >
-              </textarea>
+          </div>
+          <div class="modal-fa-ag">
+            <label class="modal-fa-ad">Phone</label>
+            <div class="modal-fa-ai">
+              <input
+                type="phone"
+                class="modal-fa-ac"
+                id="name"
+                name="name"
+                required
+                minlength="4"
+                maxlength="8"
+                size="16"
+              />
+              <svg class="modal-fa-ak" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-1"></use>
+              </svg>
             </div>
           </div>
-
+          <div class="modal-fa-ag">
+            <label class="modal-fa-ad">Email</label>
+            <div class="modal-fa-ae">
+              <input
+                type="text"
+                class="modal-fa-ac"
+                id="name"
+                name="name"
+                required
+                minlength="4"
+                maxlength="8"
+                size="16"
+              />
+              <svg class="modal-fa-ak" width="16" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <label class="modal-fa-ad" for="user-comment">Comment</label>
+            <textarea
+              class="modal-fa-am"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            >
+            </textarea>
+          </div>
           <div class="modal-fa-an">
-            <input
-              class="visually-hidden"
-              id="user-privacy"
-              type="checkbox"
-              value="true"
-              name="user-privacy"
-            />
-            <label class="modal-fa-ao" for="user-privacy">
-              <span class="modal-fa-ap">
-                <svg class="modal-fa-aq" width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
+             <input type="checkbox" id="accept" name="accept" />
+            <div>
+           <label class="modal-fa-ar" for="accept">I accept the terms and conditions of the</label>
               <a class="modal-fa-ar" href="">Privacy Policy</a>
-            </label>
+            </div>
           </div>
+
           <button class="modal-fa-as" type="submit">Send</button>
         </form>
       </div>
