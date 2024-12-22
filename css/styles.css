@@ -1080,7 +1080,6 @@ input.modal-fa-ac {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-fa-ak:focus + .modal-fa-ak {
   fill: #4d5ae5;
 }
