@@ -119,10 +119,16 @@ button {
   padding: 24px 0;
   margin-right: 149px;
 }
+@media only screen and (min-width: 768px) {
+  .header-logo {
+    margin-right: 120px;
+  }
+}
 @media only screen and (min-width: 1158px) {
   .header-logo {
     padding: 16px 72px 0 0;
     display: block;
+    margin-right: 76px;
   }
 }
 .header-logo.logo-part {
@@ -342,10 +348,6 @@ flex-direction: column;*/
 }
 
 @media only screen and (min-width: 1158px) {
-  .header-logo {
-    margin-right: 76px;
-  }
-
   .ul-adress-box {
     flex-direction: row;
     align-items: center;
