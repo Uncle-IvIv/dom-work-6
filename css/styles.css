@@ -181,8 +181,7 @@ button {
 }
 
 .mobile-ca-aa {
-  width: 193px;
-  height: 72px;
+
   margin-bottom: 48px;
 }
 
@@ -236,7 +235,6 @@ button {
 .mobile-aa-aa {
   position: relative;
   padding-top: 72px;
-  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   height: 100%;
