@@ -98,6 +98,14 @@ button {
   display: flex;
   align-items: center;
 }
+@media only screen and (min-width: 768px) {
+  .header-container {
+    height: 72px;
+    display: flex;
+  align-items: center;
+
+  }
+}
 @media only screen and (min-width: 1158px) {
   .header-container {
     height: 72px;
@@ -134,7 +142,12 @@ button {
 .header-logo.logo-part {
   color: #2e2f42;
 }
-
+@media only screen and (min-width: 768px) {
+.nav-st {
+color: #404bbf;
+}
+  
+}
 .mobile-menu {
   padding: 0 0 0 0;
   border: none;
@@ -447,7 +460,7 @@ flex-direction: column;*/
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    padding: 0;
+    padding-top: 112px;
   }
 }
 
@@ -456,13 +469,6 @@ flex-direction: column;*/
   justify-content: center;
   align-items: center;
 }
-
-@media only screen and (min-width: 768px) {
-  .aa-ac {
-    margin-top: 64px;
-  }
-}
-
 .aa-ad {
   width: 169px;
   height: 56px;
@@ -473,23 +479,16 @@ flex-direction: column;*/
   margin-top: 72px;
   margin-bottom: 72px;
 }
-
 @media only screen and (min-width: 768px) {
   .aa-ad {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    padding: 16px 32px;
+   padding: 16px 32px;
+   margin-top: 32px;
   }
 }
-
 .ba-aa {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-
 @media only screen and (min-width: 768px) {
   .baa-aa {
     display: flex;
