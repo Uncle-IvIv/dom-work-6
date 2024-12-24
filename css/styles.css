@@ -76,11 +76,7 @@ button {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-@media only screen and (min-width: 1158px) {
-  .header-box {
-    max-width: 1158px;
-  }
-}
+
 @media only screen and (min-width: 768px) {
   .header-box {
     max-width: 768px;
@@ -89,6 +85,7 @@ button {
 }
 @media only screen and (min-width: 1158px) {
   .header-box {
+    max-width: 1158px;
     height: 100%;
   }
 }
@@ -102,17 +99,10 @@ button {
   .header-container {
     height: 72px;
     display: flex;
-  align-items: center;
+    align-items: center;
 
   }
 }
-@media only screen and (min-width: 1158px) {
-  .header-container {
-    height: 72px;
-    padding: 24px 156px 24px 156px;
-  }
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -134,9 +124,10 @@ button {
 }
 @media only screen and (min-width: 1158px) {
   .header-logo {
-    padding: 16px 72px 0 0;
-    display: block;
+
+ 
     margin-right: 76px;
+    margin-left: 141px;
   }
 }
 .header-logo.logo-part {
@@ -274,7 +265,11 @@ color: #404bbf;
     display: inline-flex;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .adress-styl {
+margin-left: 0px;
+  }
+}
 .nav-punkt-st {
   display: block;
   padding: 0 0;
@@ -325,7 +320,14 @@ color: #404bbf;
   flex-direction: column;
   gap: 12px;
 }
-
+@media only screen and (min-width: 1158px) {
+  .ul-adress-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+}
 .adress-email {
   display: block;
   font-size: 12px;
@@ -348,7 +350,25 @@ color: #404bbf;
     margin-left: 121px;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .adress-email {
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-left: 332px;
+    }
+}
+@media only screen and (min-width: 1158px) {
+  .ad-tel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 151px;
+    margin-left: 0;
+    margin-right: 156px;
+  }
+}
 .mobile-menu-op-nav {
   width: 151px;
   height: 200px;
@@ -359,22 +379,6 @@ flex-direction: column;*/
   gap: 40px;
   margin-bottom: 168px;
 }
-
-@media only screen and (min-width: 1158px) {
-  .ul-adress-box {
-    flex-direction: row;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .adress-email {
-    padding: 24px 0;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
-}
-
 .icon-solid-menu {
   display: block;
   fill: #2f2f37;
@@ -600,6 +604,12 @@ padding-bottom: 96px;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 0px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .ca-ad {
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
 .ca-ae {
