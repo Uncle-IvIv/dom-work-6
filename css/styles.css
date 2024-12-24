@@ -879,6 +879,14 @@ margin-bottom: 0;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.ea-aa {
+  background: #2e2f42;
+}
+@media only screen and (min-width: 1158px) {
+  .ea-aa {
+    padding: 100px 0;
+  }
+}
 @media only screen and (min-width: 768px) {
   .eaa-a {
     max-width: 736px;
@@ -887,13 +895,16 @@ margin-bottom: 0;
     flex-wrap: wrap;
     padding: 0 92px 0 92px;
   }
-
   .ea-ac {
     align-self: flex-start;
   }
 }
-.ea-aa {
-  background: #2e2f42;
+@media only screen and (min-width: 1158px) {
+  .eaa-a {
+    max-width: 1158px;
+    height: 112px;
+    padding: 0;
+  }
 }
 .ea-ab {
   padding-top: 108px;
@@ -906,6 +917,13 @@ margin-bottom: 0;
     justify-content: flex-start;
     flex-direction: column;
   }
+}
+@media only screen and (min-width: 1158px) {
+  .ea-ab {
+    padding: 0 120px 0 16px;
+    display: flex;
+    align-items: baseline;
+   }
 }
 .ea-ac {
   font-weight: 700;
@@ -942,7 +960,12 @@ margin-bottom: 0;
     margin-top: 96px;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .eab-aa {
+    margin-top: 0;
+    padding-right: 80px;
+  }
+}
 .ea-ag {
   font-weight: 500;
   font-size: 16px;
@@ -973,6 +996,19 @@ margin-bottom: 0;
     margin-left: 24px;
   }
 }
+@media only screen and (min-width: 1158px) {
+  .ea-ah {
+   width: 208px;
+   gap: 19px;
+   margin-bottom: 0;
+   margin-left: 0;
+  }
+}
+
+.ea-ak {
+  display: flex;
+  gap: 24px;
+}
 @media only screen and (min-width: 768px) {
   .eaa-aj {
     display: flex;
@@ -999,15 +1035,9 @@ margin-bottom: 0;
     margin-left: 0;
   }
 }
-.ea-ak {
-  display: flex;
-  gap: 24px;
-}
-
 .ea-al {
   margin: auto;
 }
-
 .ea-ao {
   width: 288px;
   height: 40px;
