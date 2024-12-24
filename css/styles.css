@@ -490,6 +490,11 @@ flex-direction: column;*/
   padding-bottom: 96px;
 }
 @media only screen and (min-width: 768px) {
+  .ba-aa {
+padding-bottom: 96px;
+  }
+}
+@media only screen and (min-width: 768px) {
   .baa-aa {
     display: flex;
     flex-wrap: wrap;
@@ -505,12 +510,19 @@ flex-direction: column;*/
 @media only screen and (min-width: 768px) {
   .ba-ac {
     width: 356px;
-    height: 120px;
+
     margin-left: 0;
   }
 }
 .ba-aca {
   margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) {
+  .ba-aca {
+    width: 356px;
+    height: 120px;
+    margin-left: 0;
+  }
 }
 .ba-ad {
   font-family: "Roboto", sans-serif;
@@ -546,18 +558,15 @@ flex-direction: column;*/
 
 .ca-ab {
   background-color: #f4f4fd;
-  background-color: #f4f4fd;
-
   padding-bottom: 64px;
 }
 
 @media only screen and (min-width: 768px) {
   .ca-ab {
     margin-top: 0;
-    max-width: 736px;
+
   }
 }
-
 .ca-ac {
   font-weight: 700;
   font-size: 36px;
@@ -569,7 +578,11 @@ flex-direction: column;*/
   flex-direction: row;
   white-space: nowrap;
 }
-
+@media only screen and (min-width: 768px) {
+  .ca-ac {
+ padding-top: 96px;
+  }
+}
 .ca-ad {
   height: 1928px;
   margin-top: 128px;
@@ -578,15 +591,15 @@ flex-direction: column;*/
   display: flex;
   align-items: center;
 }
-
 @media only screen and (min-width: 768px) {
   .ca-ad {
+    height: 1016px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 0px;
   }
 }
-
 .ca-ae {
   background: #fff;
   margin-bottom: 72px;
@@ -597,7 +610,11 @@ flex-direction: column;*/
 
 @media only screen and (min-width: 768px) {
   .ca-ae {
-    margin: 0 12px 64px;
+  height: 428px;
+  margin-right: 24px;
+  margin-top: 72px;
+  margin-bottom: 0;
+  padding-bottom: 0;
   }
 }
 .ca-aea {
@@ -694,30 +711,33 @@ flex-direction: column;*/
 
 @media only screen and (min-width: 768px) {
   .da-ab {
-    justify-content: center;
-  }
+
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+    }
 }
 
 @media only screen and (min-width: 768px) {
   .da-ac {
+    width: 768px;
     display: flex;
     flex-flow: row wrap;
-  }
+    }
 }
-
 .da-ad {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   margin-bottom: 48px;
 }
-
 @media only screen and (min-width: 768px) {
   .da-ad {
-    width: 356px;
-    height: 420px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 24px;
+    margin-bottom: 72px;
   }
 }
-
 .da-ae {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -725,10 +745,24 @@ flex-direction: column;*/
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+@media only screen and (min-width: 768px) {
+  .da-ae {
+    width: 356px;
+    height: 420px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .da-card-a {
+    width: 356px;
+    height: 300px;
+    border: 1px solid #000;
+  }
+}
 .da-af {
   margin-left: 16px;
   padding-bottom: 32px;
 }
+
 .da-ag {
   font-weight: 500;
   font-size: 20px;
@@ -738,7 +772,6 @@ flex-direction: column;*/
   margin-bottom: 8px;
   margin-top: 32px;
 }
-
 .da-ah {
   font-weight: 400;
   font-size: 16px;
@@ -819,6 +852,11 @@ flex-direction: column;*/
   margin: 0 auto 16px auto;
   width: 96px;
   height: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .ea-ag {
+    margin-left: 24px;
+  }
 }
 .ea-ah {
   width: 233px;
