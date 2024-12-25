@@ -890,11 +890,11 @@ margin-bottom: 0;
   overflow: hidden;
   }
 }
-.da-ae:hover .overlay-text {
+.da-ad:hover .overlay {
   transform: translateY(0%);
 }
-.overlay-text {
-  display: none;
+.overlay {
+ display: none;
   color: #f4f4fd;
   position: absolute;
   width: 100%;
