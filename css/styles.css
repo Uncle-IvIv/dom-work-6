@@ -1031,12 +1031,15 @@ margin-bottom: 0;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto 16px auto;
-  width: 96px;
   height: 24px;
+  display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
 }
 @media only screen and (min-width: 768px) {
   .ea-ag {
     margin-left: 24px;
+    justify-content: flex-start;
   }
 }
 .ea-ah {
