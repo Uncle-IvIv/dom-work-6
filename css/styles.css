@@ -1030,15 +1030,19 @@ margin-bottom: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 0 auto 16px auto;
-  height: 24px;
+  margin-bottom: 16px;
   display: flex;
- flex-wrap: nowrap;
- justify-content: center;
+  justify-content: center;
 }
 @media only screen and (min-width: 768px) {
   .ea-ag {
     margin-left: 24px;
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .ea-ag {
+    margin-left: 0;
     justify-content: flex-start;
   }
 }
